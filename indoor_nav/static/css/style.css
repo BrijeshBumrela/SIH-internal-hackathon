@@ -1,0 +1,93 @@
+.my-content {
+    border-right: #d1d1d1;
+    height: 100vh;
+    width: 100%;
+}
+
+.my-map {
+    margin-top: 40px;
+    border-left: 2px solid #d1d1d1;
+    height: 90vh;
+}
+
+.info-card {
+    width: 80%;
+    margin: auto;
+}
+
+.info-card > * {
+    width: 60%;
+    margin: auto;
+}
+
+.map-container {
+    padding-top: 40px;
+}
+
+.image-box {
+    height: 250px;
+    margin: auto;
+    width: 40%;
+}
+
+.image-box img {
+    width: 150px;
+    height: 150px;
+}
+
+.info-card {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navigate-wrapper {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navigate-dropdown {
+    height: 100px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.zoom-div {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.zoom-div-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.zoom-icon {
+    font-size: 60px;
+    height: 100px;
+}
+
+.zoom-icon:hover {
+    color: #d1d1d1;
+    cursor: pointer;
+}
+
+#map-container{
+    height: 1800px;
+    width: 900px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#map-container svg{
+    width: 900px;
+    height: 800px;
+}
